@@ -1,0 +1,42 @@
+/* Landing Section */
+.landing-section{
+    width: 100vw;
+    height: 100vh;
+}
+.landing-background{
+    max-width: 2000px;
+    max-height: 100%;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+/* Card Selection Section 
+Might need to readjust viewheights to fit sticky navbar
+*/
+
+/*Text above cards*/
+.header-text-1{
+    color: #211E40;
+    align-content: space-around;
+    text-align: center;
+
+    /* might need to adjust this later*/
+    /* padding-top: 30px; */
+}
+.header-text-2{
+    color: #211E40;
+    text-align: center;
+}
+/* Card Deck */
+
+.card-deck-section{
+    max-height: 100%;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.card-body{
+}
