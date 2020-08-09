@@ -8,8 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/77c7241b43.js" crossorigin="anonymous"></script>
+    <!-- Linked Style Sheet -->
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <title>Voyage Realty</title>
 </head>
@@ -25,6 +28,10 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 </body>
+
+
+
+
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -58,47 +65,221 @@
     </div>
 </nav>
 
-
 <section class="landing-section">
     <img class="landing-background" src="img/landingph.jpg">
 </section>
 
 <section class="card-deck-section">
-    <div>
-        <h2 class="header-text-1">Pick your superpower</h2>
-        <h5 class="header-text-2">Three ways to be a better homebuyer</h5>
-    </div>
-
-    <div class="card-deck">
-        <div class="card">
-            <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Trade Up</h5>
-                <p class="card-text">Buy first and say goodbye to stress. We'll guarantee your home sells.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-            </div>
+    <div class="container">
+        <div class="header-text-positioning">
+            <h2 class="section-header-h2">Pick your superpower</h2>
+            <h5 class="section-header-h5">Three ways to be a better homebuyer</h5>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text text-muted">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+        <div class="card-deck">
+            <div class="shadow-lg p-3 mb-5 bg-white rounded card card-styles ">
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <i class="fas fa-home fa-6x deck-icons"></i>
+                    <h5 class="card-title">Trade Up</h5>
+                    <p class="card-text text-muted card-body-text">Buy first and say goodbye to stress. We'll guarantee
+                        your home sells.</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> A whole new approach</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> Make a cash offer</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> Move only once</p>
+                    <button type="button" class="btn btn-primary btn-lg btn-block button-styles">Start your Trade Up</button>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+            <div class="shadow-lg p-3 mb-5 bg-white rounded card card-styles">
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <i class="fas fa-dollar-sign fa-6x deck-icons"></i>
+                    <h5 class="card-title">Cash Offer</h5>
+                    <p class="card-text text-muted card-body-text">We'll turn your offer into cash, making it
+                        irresistible to sellers.</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> A new kind of offer</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> No need for cash on hand</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> Levels the playing field</p>
+                    <button type="button" class="btn btn-primary btn-lg btn-block button-styles">Make a Cash Offer</button>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-white rounded card card-styles">
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <i class="fas fa-shield-alt fa-6x deck-icons"></i>
+                    <h5 class="card-title">Guaranteed Offer</h5>
+                    <p class="card-text text-muted card-body-text">We'll back your offer with a bulletproof
+                        guarantee—free of charge.</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> An enhanced offer</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> No additional costs</p>
+                    <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> Certainty for the seller</p>
+                    <button type="button" class="btn btn-primary btn-lg btn-block button-styles">Get a Guarantee</button>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<section class="stats-section">
+    <div class="container">
+        <div class="header-text-positioning">
+            <h2 class="section-header-h2">Why go with Voyage?</h2>
+            <h5 class="section-header-h5">Because we get it done. Statistically speaking.</h5>
+        </div>
+    </div>
+</section>
+
+<section class="review-section">
+    <div class="container">
+        <div class="header-text-positioning">
+            <h2 class="section-header-h2">Real clients. Real happy.</h2>
+            <!-- <h5 class="section-header-h5">A different kind of real estate agency</h5> -->
+        </div>
+
+    </div>
+</section>
+
+<section class="testimonials-section">
+    <div class="container">
+        <div class="header-text-positioning">
+            <h2 class="section-header-h2">More happy homeowners</h2>
+            <h5 class="section-header-h5">We’ve helped more than 1,500+ homebuyers just like you. Here are some of their
+                stories.</h5>
+            <p>
+                Work in testimonial carousel,
+                side arrows,
+                picture,
+                quote.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="review-section">
+    <div class="container">
+        <div class="header-text-positioning">
+            <h2 class="section-header-h2">Why go with Flyhomes?</h2>
+            <h5 class="section-header-h5">Because we get it done. Statistically speaking.</h5>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Site footer -->
+<div class="container my-4">
+
+    <p class="font-weight-bold">A footer is an additional navigation method for websites. It can hold links, buttons,
+        company info, copyrights, forms and many other elements.</p>
+
+    <p><strong>Detailed documentation and more examples you can find in our <a
+                href="https://mdbootstrap.com/docs/jquery/navigation/footer/" target="_blank">Bootstrap Footer Docs</a>
+    </p>
+
+    <hr>
+
+    <p class="font-weight-bold">Basic example</p>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Here you can use rows and columns to organize your footer content.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+</div>
 
 </html>

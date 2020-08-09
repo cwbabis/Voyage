@@ -1,9 +1,11 @@
 /* Landing Section */
-.landing-section{
+
+.landing-section {
     width: 100vw;
     height: 100vh;
 }
-.landing-background{
+
+.landing-background {
     max-width: 2000px;
     max-height: 100%;
     height: auto;
@@ -17,26 +19,124 @@ Might need to readjust viewheights to fit sticky navbar
 */
 
 /*Text above cards*/
-.header-text-1{
+
+.header-text-positioning {
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.section-header-h2 {
     color: #211E40;
     align-content: space-around;
     text-align: center;
-
-    /* might need to adjust this later*/
-    /* padding-top: 30px; */
+    padding-top: 10px;
 }
-.header-text-2{
+.section-header-h5 {
     color: #211E40;
     text-align: center;
+    padding-top: 5px;
 }
 /* Card Deck */
-
-.card-deck-section{
-    max-height: 100%;
-    height: auto;
-    width: 100%;
-    margin: auto;
-    display: block;
+.card-deck-section {
+    background-color: white;
+    width: 100vw;
+    min-height: 85vh;
 }
-.card-body{
+.card-deck {
+    justify-content: center;
+}
+.card-styles {
+    min-height: 500px;
+    max-width: 275px;
+    padding: 0px;
+}
+.deck-icons {
+    text-align: center;
+    color: #378DF4;
+    width: 100%;
+    padding: 10px;
+}
+.card-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #201E40;
+}
+.check-icon{
+    color: #00DD87;
+    padding-right: 10px;
+}
+.check-text{
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+}
+.card-body-text{
+    text-align: center;
+    min-height: 75px;
+}
+.button-styles {
+    margin-top: 40px;
+    padding: 7px;
+}
+.btn-primary{
+    background-color: #1B1464;
+    border-color: #1B1464;
+    
+}
+.btn-primary:hover {
+    box-shadow: 1.5px 1.5px 10px #aaaaaa;
+  }
+
+
+@media screen and (max-width: 1000px) {
+
+    .body{
+        overflow-x: hidden;
+    }
+    .card-styles {
+        min-width: 470px;
+    }
+    .card-deck-section {
+        min-height: 300vh;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    .check-icon{
+        color: #00DD87;
+        padding-right: 20px;
+    }
+    .check-text{
+        text-align: left;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+/* @media screen and (min-height: 1000px) {
+    .card-deck-section {
+        height: 100vh;
+} */
+
+/* Why Voyage Section*/
+
+.stats-section {
+    width: 100vw;
+    height: 75vh;
+    background-color: #F8FAFA;
+}
+
+/* Online Reviews Section
+Yelp, Zillow, Etc*/
+
+.review-section {
+    background-color: /* #F8FAFA */
+    purple;
+    width: 100vw;
+    height: 75vh;
+}
+
+.testimonials-section {
+    width: 100vw;
+    height: 75vh;
 }
