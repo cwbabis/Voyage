@@ -21,8 +21,8 @@ Might need to readjust viewheights to fit sticky navbar
 /*Text above cards*/
 
 .header-text-positioning {
-    padding: 20px;
-    align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 50px
 }
 
 .section-header-h2 {
@@ -31,67 +31,77 @@ Might need to readjust viewheights to fit sticky navbar
     text-align: center;
     padding-top: 10px;
 }
+
 .section-header-h5 {
     color: #211E40;
     text-align: center;
     padding-top: 5px;
 }
+
 /* Card Deck */
+
 .card-deck-section {
-    background-color: white;
+    background-color: plum;
     width: 100vw;
     min-height: 85vh;
 }
+
 .card-deck {
     justify-content: center;
 }
+
 .card-styles {
     min-height: 500px;
     max-width: 275px;
     padding: 0px;
 }
+
 .deck-icons {
     text-align: center;
     color: #378DF4;
     width: 100%;
     padding: 10px;
 }
+
 .card-title {
     padding: 10px;
     text-align: center;
     font-weight: 500;
     color: #201E40;
 }
-.check-icon{
+
+.check-icon {
     color: #00DD87;
     padding-right: 10px;
 }
-.check-text{
+
+.check-text {
     text-align: left;
     font-weight: 500;
     font-size: 14px;
 }
-.card-body-text{
+
+.card-body-text {
     text-align: center;
     min-height: 75px;
 }
+
 .button-styles {
     margin-top: 40px;
     padding: 7px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #1B1464;
     border-color: #1B1464;
-    
 }
+
 .btn-primary:hover {
     box-shadow: 1.5px 1.5px 10px #aaaaaa;
-  }
-
+}
 
 @media screen and (max-width: 1000px) {
-
-    .body{
+    .body {
         overflow-x: hidden;
     }
     .card-styles {
@@ -103,16 +113,17 @@ Might need to readjust viewheights to fit sticky navbar
     .card-title {
         font-size: 25px;
     }
-    .check-icon{
+    .check-icon {
         color: #00DD87;
         padding-right: 20px;
     }
-    .check-text{
+    .check-text {
         text-align: left;
         font-weight: 500;
         font-size: 18px;
     }
 }
+
 /* @media screen and (min-height: 1000px) {
     .card-deck-section {
         height: 100vh;
@@ -122,21 +133,44 @@ Might need to readjust viewheights to fit sticky navbar
 
 .stats-section {
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     background-color: #F8FAFA;
+}
+.stats-asterik-text{
+    padding-top: 30px;
+
+}
+
+.sign-pic {
+    width: 80%;
+    height: 50vh;
+}
+
+.stat-bars {
+    display: inline;
 }
 
 /* Online Reviews Section
 Yelp, Zillow, Etc*/
 
-.review-section {
-    background-color: /* #F8FAFA */
-    purple;
+.agency-section {
+    background-color: plum;
     width: 100vw;
     height: 75vh;
 }
+.agency-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #201E40;
+}
 
 .testimonials-section {
+    width: 100vw;
+    height: 75vh;
+}
+.review-section {
+    background-color: plum;
     width: 100vw;
     height: 75vh;
 }
