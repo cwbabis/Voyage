@@ -41,7 +41,7 @@ Might need to readjust viewheights to fit sticky navbar
 /* Card Deck */
 
 .card-deck-section {
-    background-color: plum;
+    background-color: white;
     width: 100vw;
     min-height: 85vh;
 }
@@ -154,7 +154,7 @@ Might need to readjust viewheights to fit sticky navbar
 Yelp, Zillow, Etc*/
 
 .agency-section {
-    background-color: plum;
+    background-color: F8FAFA;
     width: 100vw;
     height: 75vh;
 }
@@ -164,13 +164,56 @@ Yelp, Zillow, Etc*/
     font-weight: 500;
     color: #201E40;
 }
+.agency-text{
+    width: 220px;
+    text-align: center;
+}
 
 .testimonials-section {
     width: 100vw;
     height: 75vh;
 }
+
+
+
 .review-section {
-    background-color: plum;
+    background-color: F8FAFA;
     width: 100vw;
-    height: 75vh;
+    height: 175vh;
+}
+.review-container{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.review-header-text{
+    font-size: x-large;
+    font-weight: 500;
+    color: #201E40;
+}
+.review-para-text{
+    color: #201E40;
+}
+.review-text-positioning{
+padding: 75px;
+}
+.review-tradeup-img{
+    justify-content: center;
+}
+.review-button{
+    padding-top: 50px;
+    margin: auto;
+    
+}
+
+.footer-section{
+    background-color:#1B1464FA;
+    height: 50vh;
+}
+
+.footer-header{
+color: white;
+}
+.EHO-icon{
+    height: 75px;
+    width: 72px;
 }
