@@ -1,8 +1,11 @@
-/* Landing Section */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
 
 .landing-section {
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+    height: 90vh;
 }
 
 .landing-background {
@@ -12,6 +15,19 @@
     width: 100%;
     margin: auto;
     display: block;
+}
+
+.landing-text {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.start-button {
+    width: 200px;
+    margin: 10px;
 }
 
 /* Card Selection Section 
@@ -42,7 +58,6 @@ Might need to readjust viewheights to fit sticky navbar
 
 .card-deck-section {
     background-color: white;
-    width: 100vw;
     min-height: 85vh;
 }
 
@@ -100,15 +115,155 @@ Might need to readjust viewheights to fit sticky navbar
     box-shadow: 1.5px 1.5px 10px #aaaaaa;
 }
 
+/* @media screen and (min-height: 1000px) {
+    .card-deck-section {
+        height: 100vh;
+} */
+
+/* Why Voyage Section*/
+
+.stats-section {
+    height: 100vh;
+    background-color: #F8FAFA;
+}
+
+.stats-asterik-text {
+    padding-top: 30px;
+}
+
+/* .sign-pic {
+    width: 80%;
+    height: 50vh;
+} */
+
+.stat-bars {
+    display: inline;
+}
+
+/* Online Reviews Section
+Yelp, Zillow, Etc*/
+
+.agency-section {
+    background-color: #F8FAFA;
+    height: 75vh;
+}
+
+.agency-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #201E40;
+}
+
+.agency-text {
+    width: 220px;
+    text-align: center;
+    margin: auto;
+}
+
+.testimonials-section {
+    height: 90vh;
+    background-color: white;
+}
+
+.testimonials-img {
+    padding: 40px;
+    align-items: center;
+}
+
+.review-section {
+    background-color: F8FAFA;
+    height: 175vh;
+}
+
+.review-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.review-header-text {
+    font-size: x-large;
+    font-weight: 500;
+    color: #201E40;
+}
+
+.review-para-text {
+    color: #201E40;
+}
+
+.review-text-positioning {
+    padding: 75px;
+}
+
+.review-tradeup-img {
+    justify-content: center;
+}
+
+.review-button {
+    padding-top: 50px;
+    margin: auto;
+}
+
+.footer-section {
+    background-color: #1B1464FA;
+    height: 50vh;
+    margin: auto;
+}
+
+.footer-row-spacing {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.footer-header {
+    color: white;
+    margin: auto;
+}
+
+.ul-styling {
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+.EHO-icon {
+    margin: auto;
+    height: 75px;
+    width: 72px;
+    left: 50%;
+    right: 50%;
+}
+.footer-icons{
+    color: white;
+}
+
+
+/* Media Queries 
+Phone Size
+*/
+
 @media screen and (max-width: 1000px) {
     .body {
         overflow-x: hidden;
     }
+    /* View Break */
+    .landing-section {
+        position: relative;
+        height: 40vh;
+    }
+    .landing-text {
+        position: absolute;
+        top: 1%;
+        bottom: 40%;
+        width: 100%;
+        max-width: 100%;
+    }
+    /* View Break */
     .card-styles {
-        min-width: 470px;
+        min-width: 420px;
     }
     .card-deck-section {
-        min-height: 300vh;
+        min-height: 310vh;
     }
     .card-title {
         font-size: 25px;
@@ -122,98 +277,113 @@ Might need to readjust viewheights to fit sticky navbar
         font-weight: 500;
         font-size: 18px;
     }
-}
-
-/* @media screen and (min-height: 1000px) {
-    .card-deck-section {
+    /* View Break */
+    .stats-section {
+        height: 120vh;
+        background-color: #F8FAFA;
+    }
+    /* View Break */
+    .agency-section {
+        background-color: #F8FAFA;
+        height: 200vh;
+    }
+    .agency-col {
+        min-width: 420px;
+    }
+    .agency-title {
+        padding: 10px;
+        text-align: center;
+        font-weight: 500;
+        color: #201E40;
+    }
+    .agency-text {
+        width: 220px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    /* View Break */
+    .review-section {
+        background-color: F8FAFA;
+        height: 375vh;
+    }
+    .review-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .review-header-text {
+        font-size: x-large;
+        font-weight: 500;
+        color: #201E40;
+    }
+    .review-para-text {
+        color: #201E40;
+    }
+    .review-text-positioning {
+        padding: 75px;
+    }
+    .review-tradeup-img {
+        justify-content: center;
+    }
+    .review-button {
+        padding-top: 50px;
+        margin: auto;
+    }
+    /* View Break */
+    .footer-section {
+        background-color: #1B1464FA;
         height: 100vh;
-} */
-
-/* Why Voyage Section*/
-
-.stats-section {
-    width: 100vw;
-    height: 100vh;
-    background-color: #F8FAFA;
-}
-.stats-asterik-text{
-    padding-top: 30px;
-
-}
-
-.sign-pic {
-    width: 80%;
-    height: 50vh;
-}
-
-.stat-bars {
-    display: inline;
+        margin: auto;
+    }
+    .footer-row-spacing {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: auto;
+    }
+    .footer-header {
+        color: white;
+        margin: auto;
+    }
+    .EHO-icon {
+        margin: auto;
+        height: 75px;
+        width: 72px;
+        left: 50%;
+        right: 50%;
+    }
 }
 
-/* Online Reviews Section
-Yelp, Zillow, Etc*/
+/* Media Queries 
+iPad/Small Laptop Size
+*/
 
-.agency-section {
-    background-color: F8FAFA;
-    width: 100vw;
-    height: 75vh;
-}
-.agency-title {
-    padding: 10px;
-    text-align: center;
-    font-weight: 500;
-    color: #201E40;
-}
-.agency-text{
-    width: 220px;
-    text-align: center;
-}
-
-.testimonials-section {
-    width: 100vw;
-    height: 75vh;
-}
-
-
-
-.review-section {
-    background-color: F8FAFA;
-    width: 100vw;
-    height: 175vh;
-}
-.review-container{
-   padding-top: 20px;
-   padding-bottom: 20px;
-}
-.review-header-text{
-    font-size: x-large;
-    font-weight: 500;
-    color: #201E40;
-}
-.review-para-text{
-    color: #201E40;
-}
-.review-text-positioning{
-padding: 75px;
-}
-.review-tradeup-img{
-    justify-content: center;
-}
-.review-button{
-    padding-top: 50px;
-    margin: auto;
-    
-}
-
-.footer-section{
-    background-color:#1B1464FA;
-    height: 50vh;
-}
-
-.footer-header{
-color: white;
-}
-.EHO-icon{
-    height: 75px;
-    width: 72px;
+@media screen and (max-width: 1200px) {
+    .body {
+        overflow-x: hidden;
+    }
+    /* View Break */
+    .card-deck-section {
+        min-height: 130vh;
+    }
+    .stats-section {
+        height: 125vh;
+        background-color: #F8FAFA;
+    }
+    .agency-section {
+        background-color: #F8FAFA;
+        height: 100vh;
+    }
+    .review-section {
+        background-color: F8FAFA;
+        height: 250vh;
+    }
+    .footer-section {
+        background-color: #1B1464FA;
+        height: 50vh;
+        margin: auto;
+    }
+    .ul-styling {
+        padding-inline-start: 0px;
+        list-style-type: none;
+    }
 }

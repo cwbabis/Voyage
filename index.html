@@ -32,9 +32,10 @@
 
 
 
+
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Voyage</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -66,7 +67,12 @@
 </nav>
 
 <section class="landing-section">
-    <img class="landing-background" src="https://via.placeholder.com/3840x2160">
+    <div class="text-center landing-text">
+        <h1>Superpower your homebuying</h1>
+        <h4>There are traditional agents. Then there's Voyage.</h4>
+        <button type="button" class="btn btn-primary btn-lg start-button">Start Now</button>
+    </div>
+    <img class="landing-background" src="https://via.placeholder.com/1920x1080">
 </section>
 
 <section class="card-deck-section">
@@ -153,6 +159,22 @@
     </div>
 </section>
 
+<section class="testimonials-section">
+    <div class="container">
+        <div class="header-text-positioning">
+            <h2 class="section-header-h2">Real Clients. Real Happy.</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img class="testimonial-img float-right" src="./img/review-set-one.png">
+        </div>
+        <div class="col">
+            <img class="testimonial-img" src="./img/review-set-two.png">
+        </div>
+    </div>
+    </div>
+</section>
 <section class="agency-section">
     <div class="container">
         <div class="header-text-positioning">
@@ -160,7 +182,7 @@
             <h5 class="section-header-h5">A different kind of real estate agency</h5>
         </div>
         <div class="row ">
-            <div class="col">
+            <div class="col agency-col">
                 <i class="fas fa-users fa-6x deck-icons"></i>
                 <h5 class="agency-title">Team of experts</h5>
                 <p class=agency-text>Your Client Advisor is your coach from start to finish, and you’re supported by
@@ -168,15 +190,15 @@
                     touring,
                     research, and more.</p>
             </div>
-            <div class="col">
+            <div class="col agency-col">
                 <i class="fas fa-handshake-o fa-6x deck-icons"></i>
-                <h5 class="agency-title">We back you … literally</h5>
+                <h5 class="agency-title">We back you… literally</h5>
                 <p class=agency-text>
                     We put our cash on the line to help you buy your home. We’re in it together and we’ll work hard for
                     you.
                     When you win, we win.</p>
             </div>
-            <div class="col">
+            <div class="col agency-col">
                 <i class="fas fa-wrench fa-6x deck-icons"></i>
                 <h5 class="agency-title">More than an agency</h5>
                 <p class=agency-text>
@@ -189,17 +211,7 @@
     </div>
 </section>
 
-<section class="testimonials-section">
-    <div class="container">
-        <div class="header-text-positioning">
-            <h2 class="section-header-h2">Real Clients. Real Happy.</h2>
-        </div>
-        <div class="col">
-        </div>
-        <div class="col">
-        </div>
-    </div>
-</section>
+
 
 <section class="review-section">
     <div class="container">
@@ -266,34 +278,86 @@
 
 <!-- Site footer -->
 <section class="footer-section">
-    <div class="row ">
+    <div class="row footer-row-spacing">
         <div class="col-md-3 text-center">
-            <p class="footer-header">Products</p>
-            <a href="#">Footer Link</a>
-            <a href="#">Footer Link</a>
+            <ul class="ul-styling">
+                <li>
+                    <p class="footer-header">Placeholder</p>
+                </li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+            </ul>
         </div>
         <div class="col-md-3 text-center">
-            <p class="footer-header">Products</p>
-            <a href="#">Footer Link</a>
-            <a href="#">Footer Link</a>
-            <a href="#">Footer Link</a>
+            <ul class="ul-styling">
+                <li>
+                    <p class="footer-header">Placeholder</p>
+                </li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+            </ul>
         </div>
         <div class="col-md-3 text-center">
-            <p class="footer-header">Products</p>
-            <a href="#">Footer Link</a>
-            <a href="#">Footer Link</a>
-            <a href="#">Footer Link</a>
+            <ul class="ul-styling">
+                <li>
+                    <p class="footer-header">Placeholder</p>
+                </li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+            </ul>
         </div>
         <div class="col-md-3 text-center">
-            <p class="footer-header">Products</p>
-            <a href="#">Footer Link</a>
-            <a href="#">Footer Link</a>
-            <a href="#">Footer Link</a>
+            <ul class="ul-styling">
+                <li>
+                    <p class="footer-header">Placeholder</p>
+                </li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+                <li><a href="#">Placeholder Link</a></li>
+            </ul>
         </div>
-    </div>
-    <div class="row ">
-        <div class="col-md-12 text-center">
 
+    </div>
+    <div>
+        <hr>
+        <div class="col-md-12 text-center footer-row-spacing">
+
+
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                        <i class="fab fa-2x fa-facebook-f footer-icons"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                        <i class="fab fa-2x fa-twitter footer-icons"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-1">
+                        <i class="fab fa-2x fa-google-plus-g footer-icons"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1">
+                        <i class="fab fa-2x fa-linkedin-in footer-icons"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-dribbble mx-1">
+                        <i class="fab fa-2x fa-dribbble footer-icons"> </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <!-- Social buttons -->
+        <div class="col-md-12 text-center footer-row-spacing">
             <img class="EHO-icon" src="./img/EHO.png">
         </div>
     </div>
