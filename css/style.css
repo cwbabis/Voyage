@@ -390,7 +390,7 @@ Phone Size
     }
     /* View Break */
     .card-styles {
-        min-width: 400px;
+        min-width: 380px;
     }
     .card-deck-section {
         min-height: 310vh;
