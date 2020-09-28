@@ -376,6 +376,9 @@ Phone Size
     .body {
         overflow-x: hidden;
     }
+    .navbar{
+        /* height: 10vh; */
+    }
     /* View Break */
     .landing-section {
         position: relative;
