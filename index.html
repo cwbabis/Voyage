@@ -30,7 +30,7 @@
 </body>
 
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-color">
     <!-- 
       <a class="navbar-brand" href="#">  <img src="https://lh3.googleusercontent.com/QZZHErl58AWL6PFYoRKbz07SEZmN00HGgwetY4fTwpcPwd7730Uq-Ed9LUYoOAPAsJFrs6KFLyS-LQ83GmMdxka2me_CCVDzq9T6mKZ3EbVFsQMEqbTeY-CjIeFiWEnq3Cp-gVrN=w2400" width="30" height="30" class="d-inline-block align-top" alt=""></a>
     --><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -49,7 +49,7 @@
                 <a class="nav-link" href="#">Sell</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Property Management</a>
+                <a class="nav-link" href="#">Manage</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/contact.html">Contact</a>
@@ -64,10 +64,10 @@
     $(document).ready(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() < $("#landingbg").height()) {
-                $(".navbar").removeClass("bg-dark");
+                $(".navbar").removeClass("bg-color");
             }
             else {
-                $(".navbar").addClass("bg-dark");
+                $(".navbar").addClass("bg-color");
             }
         });
     });
@@ -126,7 +126,7 @@
                 <!-- <img class="card-img-top" src="" alt=""> -->
                 <div class="card-body">
                     <i class="fas fa-shield-alt fa-6x deck-icons"></i>
-                    <h5 class="card-title">Property</h5>
+                    <h5 class="card-title">Managing</h5>
                     <p class="card-text text-muted card-body-text">We'll back your offer with a bulletproof
                         guarantee—free of charge.</p>
                     <p class="card-text check-text"> <i class="fas fa-check fa-xs check-icon"></i> An enhanced offer</p>
