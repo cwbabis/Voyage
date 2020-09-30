@@ -28,65 +28,54 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 </body>
-
-<body>
-
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-color">
-    <!-- 
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+        <!-- 
       <a class="navbar-brand" href="#">  <img src="https://lh3.googleusercontent.com/QZZHErl58AWL6PFYoRKbz07SEZmN00HGgwetY4fTwpcPwd7730Uq-Ed9LUYoOAPAsJFrs6KFLyS-LQ83GmMdxka2me_CCVDzq9T6mKZ3EbVFsQMEqbTeY-CjIeFiWEnq3Cp-gVrN=w2400" width="30" height="30" class="d-inline-block align-top" alt=""></a>
     --><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="https://realty.voyage/">VOYAGE <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Buy</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Sell</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Manage</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<div class="rect" id="landingbg"></div>
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://realty.voyage/">VOYAGE <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Buy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sell</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Manage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="rect" id="landingbg"></div>
 
-<script>
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() < $("#landingbg").height()) {
-                $(".navbar").removeClass("bg-color");
-            }
-            else {
-                $(".navbar").addClass("bg-color");
-            }
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() < $("#landingbg").height()) {
+                    $(".navbar").removeClass("bg-color");
+                }
+                else {
+                    $(".navbar").addClass("bg-color");
+                }
+            });
         });
-    });
-</script>
+    </script>
 
-
-
-
-
-
-
-
-
-    <section >
-        <h1 class="contact-header-text">Contact</h1>
-        <div class="contact-section row" style="justify-content: center; text-align: left,">
-            
-            <div class="col-lg-8 col-lg-offset-2">
+    <section>
+        
+        <div class= "row" style="justify-content: center; text-align: left,"> 
+            <div class="col-lg-8 col-lg-offset-2 contact-form">
+                <h1 class="contact-text">Contact</h1>
                 <form id="contact-form" action="https://formspree.io/raycruz123@icloud.com" method="post" action=""
                     role="form">
                     <div class="messages"></div>
@@ -191,6 +180,5 @@
             </div>
         </div>
     </footer>
-</body>
 
 </html>

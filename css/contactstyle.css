@@ -1,28 +1,40 @@
+
 /* Navigation Bar */
+
 .navbar {
     position: fixed;
     width: 100%;
     transition: background-color 1s;
     z-index: 1;
 }
-.bg-color{
+.bg-color {
     background-color: #26272B;
 }
+
 /* Contact Section */
-.contact-section {
-    padding: 150px 400px 0px 400px;
+.contact-text{
+    text-align: center;
+    color: #26272B;
+
 }
-.contact-header-text{
-    margin: 0;
-    position: absolute;
-    top: 13%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
+.contact-form {
+    padding-top: 10vh;
+    position: relative;
+    min-width: 300px;
+    min-height: 600px;
+    max-width: 600px;
+    max-width: 400px;
+    
+}
+#form_message{
+    max-height: 300px;
+    min-height: 150px;
+}
 
 .btn-primary {
     background-color: #26272B;
     border-color: #26272B;
+    margin: 25px 0px 25px 25px;
 }
 
 .btn-primary:hover {
@@ -39,9 +51,8 @@
     font-size: 15px;
     line-height: 24px;
     color: #737373;
-    position: absolute;
     bottom: 0;
-    width: 100%;
+    position: relative;
 }
 
 .site-footer hr {
