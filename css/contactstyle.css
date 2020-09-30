@@ -1,6 +1,8 @@
 
 /* Navigation Bar */
-
+.body{
+    overflow-x: hidden;
+}
 .navbar {
     position: fixed;
     width: 100%;
