@@ -1,8 +1,9 @@
-
-/* Navigation Bar */
-.body{
+html, body {
     overflow-x: hidden;
+    height: 100vh;
 }
+/* Navigation Bar */
+
 a:hover{
     color: #D4AF37;
 }
@@ -11,6 +12,7 @@ a:hover{
     width: 100%;
     transition: background-color 1s;
     z-index: 1;
+    margin: auto;
 }
 .bg-color {
     background-color: #26272B;
